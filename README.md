@@ -1,14 +1,20 @@
-# nand
+# NAND Clojure Tools
 
-A Clojure library designed to ... well, that part is up to you.
+Frequently needed helpers for working with Clojure
 
 ## Usage
 
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Use this locally for now:
+### Install
+1. Clone repo
+2. run `lein install` to install the lib locally and allow lein to
+   find it (needs to be done with every version bump)
+   
+### Use in other projects locally
+3. add a folder `checkouts` to the root of your project
+4. inside `checkouts` create a symlink to the nand-clj folder:
+   ```
+   cd into ./checkouts
+   ln -s path-to/nand-clj nand-clj
+   ```
+5. then start your repl
