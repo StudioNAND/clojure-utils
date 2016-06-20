@@ -4,7 +4,10 @@ Frequently needed helpers for working with Clojure
 
 ## Usage
 
-Use this locally for now:
+Use this locally for now. See leiningen’s
+[own docs](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md#checkout-dependencies)
+for more info
+
 ### Install
 1. Clone repo
 2. run `lein install` to install the lib locally and allow lein to
