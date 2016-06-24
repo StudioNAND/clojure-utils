@@ -1,5 +1,5 @@
-(defproject nand "0.1.0-SNAPSHOT"
-  :description "A selection of helper utils"
+(defproject io.nand/utils "0.1.0-SNAPSHOT"
+  :description "A learning project more than a collection of professional tools..."
   :url "https://github.com/StudioNAND/nand-clj"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
