@@ -21,7 +21,10 @@
   [s]
   (java.sql.Timestamp/valueOf s))
 
-(defn encode-date [s]
+(defn parse-datetime [s]
+  (f/parse (f/formatters :date-time-no-ms) s))
+
+(defn encode-datetime [s]
   (f/unparse (f/formatters :date-time-no-ms) s))
 
 (defn parse-string [s]
