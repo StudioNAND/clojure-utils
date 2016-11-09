@@ -13,3 +13,11 @@
   (with-open [r (java.io.PushbackReader. (clojure.java.io/reader filename))]
     (binding [*read-eval* false]
       (read r))))
+
+(defn read-csv
+  [path parse-line]
+  (with-open [rdr (clojure.java.io/reader path :encoding "UTF-8")]
+    (->> (line-seq rdr)
+         (drop 1) ; skip header line
+         (map parse-line)
+         (doall))))
