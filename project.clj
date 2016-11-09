@@ -1,4 +1,4 @@
-(defproject io.nand/utils "0.1.0-SNAPSHOT"
+(defproject io.nand/utils "0.0.1"
   :description "A learning project really..."
   :url "https://github.com/StudioNAND/clojure-utils"
   :license {:name "Eclipse Public License"
