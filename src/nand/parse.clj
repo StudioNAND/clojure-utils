@@ -8,7 +8,10 @@
   (if (empty? s) nil s))
 
 (defn parse-int [s]
-  (try (Integer/parseInt s) (catch NumberFormatException e nil)))
+  (if (empty? s) nil (Integer/parseInt s)))
+
+(defn parse-float [s]
+  (if (empty? s) nil (Float/parseFloat s)))
 
 (defn parse-date
   "
