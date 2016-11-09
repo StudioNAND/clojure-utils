@@ -2,11 +2,13 @@
 
 Frequently needed helpers for working with Clojure
 
-## Usage
+[![Clojars Project](https://img.shields.io/clojars/v/io.nand/utils.svg)](https://clojars.org/io.nand/utils)
 
-Use this locally for now. See leiningen’s
+## Usage locally for dev/testing
+
+See leiningen’s
 [own docs](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md#checkout-dependencies)
-for more info
+for more info on how to checkout local dependencies
 
 ### Install
 1. Clone repo
